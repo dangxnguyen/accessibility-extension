@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="cursor-pointer flex items-center">
         <Link to="#">
           <img src={logo1} alt="access" className="w-[50px] h-[50px]" />
-          <h1 className="text-gradient text-3xl">AccessExtend</h1>
+          <h1 className="text-gradient text-3xl">AccessX</h1>
         </Link>
       </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+          className="w-[28px] h-[28px] object-contain cursor-pointer"
           onClick={() => setToggle(!toggle)}
         />
 
